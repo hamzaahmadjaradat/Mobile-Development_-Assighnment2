@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Register">
+
+  <TextView
+      android:id="@+id/Name_text"
+      style="@style/RegisterTextViews"
+
+      android:layout_marginBottom="8dp"
+      android:text="Full Name" />
+
+  <EditText
+      android:id="@+id/Name_entry"
+      style="@style/EditBooks"
+      android:layout_marginBottom="20dp"
+      android:hint="Enter your name"
+      />
+
+  <TextView
+      android:id="@+id/Email"
+      style="@style/RegisterTextViews"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="8dp"
+      android:text="Email" />
+
+  <EditText
+      android:id="@+id/Email_entry"
+      android:layout_marginBottom="20dp"
+      android:hint="Enter your email"
+      style="@style/EditBooks" />
+
+  <TextView
+      android:id="@+id/text_password"
+      style="@style/RegisterTextViews"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="8dp"
+      android:text="Password"
+ />
+
+  <EditText
+      android:id="@+id/Password_entry"
+      android:layout_marginBottom="20dp"
+      android:hint="Enter your password"
+      android:inputType="textPassword"
+      style="@style/EditBooks" />
+
+  <TextView
+      android:id="@+id/Gender"
+      style="@style/RegisterTextViews"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="10dp"
+      android:text="Gender"
+ />
+
+  <RadioGroup
+      android:id="@+id/Group_Gender"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginStart="50dp"
+      android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/Male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+
+        android:text="Male" />
+
+    <RadioButton
+        android:id="@+id/Female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="Female" />
+  </RadioGroup>
+
+
+  <Button
+      android:id="@+id/Finish_Register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="145dp"
+      android:layout_marginTop="20dp"
+      android:onClick="btnFinishOnClick"
+      android:text="finish" />
+
+  <TextView
+      android:id="@+id/BUGER"
+      android:layout_width="387dp"
+      android:layout_height="158dp"
+      android:layout_marginStart="-10dp"
+      android:layout_marginTop="10dp"
+      android:gravity="center"
+      android:text=""
+      android:textSize="15sp" />
+
+
+</LinearLayout>

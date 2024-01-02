@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    >
+  <TextView
+      android:id="@+id/welcome"
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:background="@android:color/darker_gray"
+      android:gravity="center"
+      android:padding="8dp"
+      android:textSize="22dp"
+      android:text=" TYPE OF QUOTE "
+      android:textColor="@android:color/white"
+      />
+
+  <ListView
+      android:id="@+id/listView"
+      android:layout_width="match_parent"
+      android:layout_height="363dp"
+      android:layout_below="@+id/welcome"
+      android:entries="@array/choices"
+      android:divider="@android:color/darker_gray"
+      android:dividerHeight="2dp"
+      android:background="#CCCCCC"
+      android:padding="16dp" />
+
+
+  <TextView
+      android:id="@+id/QuoteFinal"
+      android:layout_height="300dp"
+      style="@style/TextViews"
+      android:layout_marginTop="430dp"
+      android:textSize="22dp" />
+  <Button
+      android:id="@+id/back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="665dp"
+      android:layout_marginEnd="190dp"
+      android:onClick="btnBackOnClick"
+      android:text="back"
+      android:textSize="15dp" />
+</RelativeLayout>

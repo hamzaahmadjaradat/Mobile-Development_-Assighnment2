@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context=".Joke">
+
+    <TextView
+        android:id="@+id/joke"
+        style="@style/TextViews"
+        android:layout_height="250dp"
+        android:textSize="26dp"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/jokeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="btnJokeOnClick"
+        android:text="Another Joke"
+        android:textSize="28dp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="150dp"
+        android:text="back"
+        android:onClick="btnBackOnClick"
+        android:textSize="15dp" />
+</LinearLayout>

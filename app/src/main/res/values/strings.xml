@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Assighnment2</string>
+    <string-array name="choices">
+        <item> government </item>
+        <item> good </item>
+        <item> great </item>
+        <item> god </item>
+        <item> freedom </item>
+        <item> friendship </item>
+        <item> forgiveness </item>
+        <item> fitness </item>
+        <item> medical </item>
+        <item> marriage </item>
+        <item> love </item>
+        <item> life </item>
+        <item> happiness </item>
+        <item> health </item>
+        <item> history </item>
+        <item> graduation </item>
+        <item> future </item>
+        <item> family </item>
+        <item> success </item>
+        <item> movies </item>
+        <item> morning </item>
+        <item> money </item>
+        <item> mom </item>
+        <item> men </item>
+        <item> legal </item>
+        <item> learning </item>
+        <item> knowledge </item>
+        <item> leadership </item>
+        <item> jealousy </item>
+        <item> intelligence </item>
+        <item> business </item>
+        <item>inspirational  </item>
+        <item> imagination </item>
+        <item> faith </item>
+        <item> birthday </item>
+        <item> best </item>
+        <item> beauty </item>
+        <item> attitude </item>
+        <item> art </item>
+        <item> architecture </item>
+        <item> anger </item>
+        <item> amazing </item>
+        <item> alone </item>
+        <item> age </item>
+        <item> car </item>
+        <item> change </item>
+        <item> communication </item>
+        <item> computers </item>
+        <item> cool </item>
+        <item> courage </item>
+        <item> dad </item>
+        <item> dating </item>
+        <item> death </item>
+        <item> design </item>
+        <item> dreams </item>
+    </string-array>
+
+
+
+</resources>
